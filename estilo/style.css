@@ -1,0 +1,120 @@
+/****Design no site*******/
+
+h2, h4{
+    text-align: center;
+    display: block;
+
+}
+
+#bot{
+    text-align: center;
+    display: block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    background-color: rgb(254, 254, 254);
+}
+
+header{
+    background-color: #820ad1;
+    padding: 20px;
+    min-width: 200px;
+    color: white;
+}
+
+header h1, header div{
+    display: inline-block;
+}
+
+#header div{
+    width: 500px;
+}
+
+#header{
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#divimg2{
+    text-align: right;
+}
+
+#img1{
+    width: 250px;
+}
+
+#img2{
+    width: 150px;
+}
+
+footer{
+    background-color: #820ad1;
+    min-width: 200px;
+    min-height: 200px;
+    margin-top: 1vh;
+    padding: 1px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    max-width: 1000px;
+    min-height: 500px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+/****FORMULARIO*******/
+
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+
+
+input[type=text],
+input[type=email],
+input[type=number]{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+input#nao{
+    margin-left: 30px;
+}
+
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
